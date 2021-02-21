@@ -15,5 +15,5 @@ const INITIAL_STATE = {
 };
 
 export const Tickets = (state = INITIAL_STATE, action)=>{
-
+    return state;
 }
