@@ -11,6 +11,7 @@ import App from "../components/App";
 
 //pages
 import {Home} from "../pages/Home";
+import {PageNotFound} from "../pages/404";
 
 export const AppRoutes = () =>{
     return (
@@ -18,6 +19,7 @@ export const AppRoutes = () =>{
             <App>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+                    <Route component={PageNotFound}/>
                     <Redirect to="/"/>                   
                 </Switch>
             </App>
