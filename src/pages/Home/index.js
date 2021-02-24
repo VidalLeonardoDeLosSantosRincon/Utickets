@@ -9,7 +9,15 @@ export const Home  = (props) =>{
             <div className="ctr-home">
                 <TicketsSection/>
             </div>
-       
+            <style jsx="true">
+            {`
+                .ctr-home{
+                    width:100%;
+                    padding:5px;
+                    box-sizing:border-box;
+                }
+            `}
+            </style>
         </Fragment>
     );
 }
