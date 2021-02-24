@@ -2,3 +2,19 @@
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  width:5px;  /* width of the entire scrollbar */
+  height:5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0,0, 0, 0.02);  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+
+  background-color: lightseagreen;    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+  border: 3px solid transparent;  /* creates padding around scroll thumb */
+}
+
