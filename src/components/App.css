@@ -2,9 +2,13 @@
   text-align: center;
 }
 
+*{
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   width:5px;  /* width of the entire scrollbar */
-  height:5px;
+  height:10px;
 }
 
 ::-webkit-scrollbar-track {
