@@ -1,11 +1,14 @@
 import React, {Fragment} from "react";
+import {Link} from "react-router-dom";
 
 export const Header = ()=>{
     return(
         <Fragment>
             <div className="ctr-header">
                 <header>
-                    <h4 className="title"><span>U</span>tickets</h4>
+                    <Link to="/" style={{textDecoration:"none"}}>
+                        <h4 className="title"><span>U</span>tickets</h4>
+                    </Link>
                 </header>
             </div>
             <style jsx="true">
