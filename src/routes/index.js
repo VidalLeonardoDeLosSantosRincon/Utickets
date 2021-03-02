@@ -19,6 +19,10 @@ export const AppRoutes = () =>{
             <App>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+                    <Route path='/github' component={() => { 
+                        window.location.href = 'https://github.com/VidalLeonardoDeLosSantosRincon'; 
+                        return null;
+                    }}/>
                     <Route component={PageNotFound}/>
                     <Redirect to="/"/>                   
                 </Switch>
