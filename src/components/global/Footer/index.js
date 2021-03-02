@@ -1,11 +1,15 @@
 import React, {Fragment} from "react";
 
+
+import {SocialNetwork} from "../SocialNetworks"
 export const Footer = ()=>{
     return(
         <Fragment>
             <div className="ctr-footer">
                 <footer>
+                    <span style={{width:"350px"}}></span>
                     <h4 className="title"><span>Vidal De Los</span> Santos 2021</h4>
+                    <SocialNetwork/>
                 </footer>
             </div>
             <style jsx="true">
@@ -15,6 +19,7 @@ export const Footer = ()=>{
                     box-sizing:border-box;
 
                     display:flex;
+                    flex-direction:column;
                     justify-content:center;
                     align-items:center;
                 }
@@ -28,7 +33,7 @@ export const Footer = ()=>{
                     box-sizing:border-box;
 
                     display:flex;
-                    justify-content:center;
+                    justify-content:space-between;
                     align-items:flex-start;
                     
                 }
