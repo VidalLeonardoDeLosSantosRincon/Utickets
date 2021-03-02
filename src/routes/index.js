@@ -23,6 +23,10 @@ export const AppRoutes = () =>{
                         window.location.href = 'https://www.linkedin.com/in/vidal-leonardo-de-los-santos-rincon-314644185/'; 
                         return null;
                     }}/>
+                    <Route path='/youtube' component={() => { 
+                        window.location.href = 'https://www.youtube.com/channel/UCyxVG-mUpXT3UQM4cnQWUTw'; 
+                        return null;
+                    }}/>
                     <Route path='/github' component={() => { 
                         window.location.href = 'https://github.com/VidalLeonardoDeLosSantosRincon'; 
                         return null;
