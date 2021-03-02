@@ -19,6 +19,10 @@ export const AppRoutes = () =>{
             <App>
                 <Switch>
                     <Route exact path="/" component={Home}/>
+                    <Route path='/linkedin' component={() => { 
+                        window.location.href = 'https://www.linkedin.com/in/vidal-leonardo-de-los-santos-rincon-314644185/'; 
+                        return null;
+                    }}/>
                     <Route path='/github' component={() => { 
                         window.location.href = 'https://github.com/VidalLeonardoDeLosSantosRincon'; 
                         return null;
