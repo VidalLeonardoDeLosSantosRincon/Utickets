@@ -1,4 +1,5 @@
 import React, {Fragment} from "react";
+import {Link} from "react-router-dom";
 
 
 export const SocialNetwork = ()  =>{
@@ -6,9 +7,9 @@ export const SocialNetwork = ()  =>{
         <Fragment>
             <div className="ctr-social_network">
                 <ul className="menu-social_network">
-                    <li>Linkedin</li>
-                    <li>YouTube</li>
-                    <li>Github</li>
+                    <Link to="/linkedin"><li>Linkedin</li></Link>
+                    <Link to="/youtube"><li>YouTube</li></Link>
+                    <Link to="/github"><li>Github</li></Link>
                 </ul>    
             </div>
             <style jsx="true">
