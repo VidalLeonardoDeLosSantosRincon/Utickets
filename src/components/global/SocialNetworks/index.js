@@ -1,6 +1,8 @@
 import React, {Fragment} from "react";
 import {Link} from "react-router-dom";
 
+//assets
+import youtubeIcon from "../../../assets/icons/youtube.png";
 
 export const SocialNetwork = ()  =>{
     return (
@@ -8,7 +10,7 @@ export const SocialNetwork = ()  =>{
             <div className="ctr-social_network">
                 <ul className="menu-social_network">
                     <Link to="/linkedin"><li>Linkedin</li></Link>
-                    <Link to="/youtube"><li>YouTube</li></Link>
+                    <Link to="/youtube"><li><img src={youtubeIcon} alt="icon_youtube" width="30"/></li></Link>
                     <Link to="/github"><li>Github</li></Link>
                 </ul>    
             </div>
