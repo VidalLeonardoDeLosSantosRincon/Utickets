@@ -4,15 +4,16 @@ import {Link} from "react-router-dom";
 //assets
 import youtubeIcon from "../../../assets/icons/youtube.png";
 import linkedinIcon from "../../../assets/icons/linkedin.png";
+import githubIcon from "../../../assets/icons/github.png";
 
 export const SocialNetwork = ()  =>{
     return (
         <Fragment>
             <div className="ctr-social_network">
                 <ul className="menu-social_network">
-                    <Link to="/linkedin"><li><img src={linkedinIcon} alt="icon_youtube" width="25"/></li></Link>
+                    <Link to="/linkedin"><li><img src={linkedinIcon} alt="icon_linkedin" width="25"/></li></Link>
                     <Link to="/youtube"><li><img src={youtubeIcon} alt="icon_youtube" width="30"/></li></Link>
-                    <Link to="/github"><li>Github</li></Link>
+                    <Link to="/github"><li><img src={githubIcon} alt="icon_github" width="30"/></li></Link>
                 </ul>    
             </div>
             <style jsx="true">
