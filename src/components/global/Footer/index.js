@@ -26,7 +26,7 @@ export const Footer = ()=>{
 
                 .ctr-footer footer{
                     width:100%;
-                    height:100px;
+                    height:150px;
                     background:black;
                     color:white;
                     padding:10px 25px;
