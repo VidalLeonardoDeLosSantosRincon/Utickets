@@ -33,7 +33,7 @@ export const SocialNetwork = ()  =>{
                         width:350px;
 
                         display:flex;
-                        justify-content:space-around;
+                        justify-content:flex-end;
                         align-items:center;
                     }
 
@@ -42,6 +42,7 @@ export const SocialNetwork = ()  =>{
                         padding:5px 10px;
                         box-sizing:border-box;
                         background:black;
+                        margin:0 5px;
                     }
                 `}
             </style>
