@@ -7,7 +7,7 @@ export const Footer = ()=>{
         <Fragment>
             <div className="ctr-footer">
                 <footer>
-                    <span style={{width:"350px"}}></span>
+     
                     <h4 className="title"><span>Vidal De Los</span> Santos 2021</h4>
                     <SocialNetwork/>
                 </footer>
@@ -26,14 +26,14 @@ export const Footer = ()=>{
 
                 .ctr-footer footer{
                     width:100%;
-                    height:150px;
+                    height:auto;
                     background:black;
                     color:white;
                     padding:10px 25px;
                     box-sizing:border-box;
 
                     display:flex;
-                    justify-content:space-between;
+                    justify-content:flex-end;
                     align-items:flex-start;
                     
                 }
@@ -41,13 +41,15 @@ export const Footer = ()=>{
                 .ctr-footer footer .title{
                     color:white;
                     font-size:18px;
-                    font-weight:bold;
+                    font-weight:300;
+                    display:none;
                 }
 
                 .ctr-footer footer .title span{
                     color:lightseagreen;
                     font-size:18px;
-                    font-weight:bold;
+                    font-weight:300;
+                    display:none;
                 }
             `}
             </style>
