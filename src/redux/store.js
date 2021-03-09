@@ -1,8 +1,8 @@
 import {createStore, combineReducers} from "redux";
 
 //reducers
-import {Tickets} from "./reducers/tickets";
+import {TicketsReducer} from "./reducers/tickets";
 
-const reducers = combineReducers({Tickets});
+const reducers = combineReducers({TicketsReducer});
 
 export const Store = createStore(reducers);

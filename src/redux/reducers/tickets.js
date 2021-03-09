@@ -14,6 +14,6 @@ const INITIAL_STATE = {
     tickets_closed: []
 };
 
-export const Tickets = (state = INITIAL_STATE, action)=>{
+export const TicketsReducer = (state = INITIAL_STATE, action)=>{
     return state;
 }
