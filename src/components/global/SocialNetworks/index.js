@@ -19,21 +19,23 @@ export const SocialNetwork = ()  =>{
             <style jsx="true">
                 {`
                     .ctr-social_network{
-                        padding: 5px;
+                        margin:0;
+                        padding:5px;
                         box-sizing: border-box;
                         background: black;
-                       
                     }
                     
                     .ctr-social_network .menu-social_network{
                         list-style:none;
+                        margin:0;
                         padding:5px;
                         box-sizing:border-box;
                         background:black;
-                        width:350px;
+                        width:auto;
 
                         display:flex;
-                        justify-content:flex-end;
+                        flex-wrap:wrap;
+                        justify-content:flex-start;
                         align-items:center;
                     }
 
