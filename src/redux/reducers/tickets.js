@@ -1,4 +1,4 @@
-const Ticket = function(name, owner, date_created, priority, description = ""){
+const Ticket_Model = function(name, owner, date_created, priority, description = ""){
     this.name = name; //required
     this.owner = owner; //required
     this.date_created = date_created; //required
