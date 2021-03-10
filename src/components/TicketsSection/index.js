@@ -2,21 +2,30 @@ import React, {Fragment} from "react";
 
 //components
 import {TicketBox} from "../TicketBox";
+import {Ticket} from "../Ticket"
 
 export const TicketsSection = () =>{
+
+   
     return (
         <Fragment>
 
             <div className="ctr-tickets">
                 <div className="ctr-tickets_section">
-                    <TicketBox/>
+                    <TicketBox body_content={
+                        <Fragment>
+                            <Ticket/>
+                            <Ticket/>
+                            <Ticket/>
+                        </Fragment>
+                    }/>
                     <TicketBox/>
                     <TicketBox/>
                     <TicketBox/>
                     <TicketBox/>
                 </div>
             </div>
-            <style jsx="true">
+            <style jsx="true" global="false">
             {`
 
                 .ctr-tickets{

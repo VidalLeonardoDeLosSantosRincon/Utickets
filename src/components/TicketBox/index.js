@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
 
-export const TicketBox = ({title, ticket}) =>{
+export const TicketBox = ({title, ticket, body_content}) =>{
     return (
         <Fragment>
             <div className="ctr-ticket_box">
@@ -10,10 +10,10 @@ export const TicketBox = ({title, ticket}) =>{
                 </h4>
                 
                 <div className="ticket_box">
-
+                    {body_content}
                 </div>
             </div>
-            <style jsx="true" global>
+            <style jsx="true" global="false">
             {`
                 .ctr-ticket_box{
                     height:500px;
@@ -84,12 +84,12 @@ export const TicketBox = ({title, ticket}) =>{
                 .ctr-ticket_box .ticket_box{
                     height:90%;
                     width:100%;
+                  
                     padding:5px;
                     box-sizing:border-box;
                     background:rgba(0, 0, 0, 0.05);
                     border-radius:5px;
-                    overflow-Y:scroll;
-                   
+                    overflow-Y:scroll;           
                 }            
             `}
             </style>
